@@ -1,0 +1,12 @@
+class Main():
+    def multi():
+        x=range(1,1000)
+        countsum=0
+        for i in x:
+            if (i%3==0 or i%5==0):
+               countsum=countsum + i
+        print(countsum)
+    multi()
+if __name__=="__main__":Main()
+
+
